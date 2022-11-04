@@ -12,4 +12,14 @@ int main() {
     cin >> y;
     int z = pow(x,y);
     cout << x << " elevado a la " << y << " es: " << z << endl;
+
+    x = 3;
+    int a = ++x / 2;
+    cout << x << endl;
+    x = 3;
+    int b = x++ / 2;
+    cout << x << endl;
+    cout << "a: " << a << endl;
+    cout << "b: " << b << endl;
+    
 }
