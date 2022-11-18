@@ -1,0 +1,5 @@
+[Nota|-título: string;-contenido: string|+Nota();+crear(): void; +guardar(): void; +abrir(): void; +modificar(contenido: string);+borrar(): void; +compartir(): void; +imprimir(): void; +getTítulo(): string; +setTítulo(título: string): void]
+
+[Carpeta|-nombre: string; -notas: array Nota|+Carpeta(); +guardar(nota: Nota): void]
+
+[Carpeta]<>->[Nota]
